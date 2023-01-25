@@ -15,5 +15,5 @@ The user interface of the program was created with a Canvas widget that provides
 
 Screenshots:
 <div>
-<img src="/screenshots/french.png" width="300" height="300"><img src="/screenshots/english.png" width="300" height="300">
+<img src="/screenshots/french.png" width="320" height="300"><img src="/screenshots/english.png" width="320" height="300">
 </div>
