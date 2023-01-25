@@ -109,20 +109,20 @@ wrong_button = Button(image=wrong_img, highlightthickness=0, command=click)
 wrong_button.grid(row=1, column=0)
 
 
-# data_to_learn = pandas.read_csv('words_to_learn.csv')
-# new_data_french_list = data_to_learn["French"].to_list()
-# new_data_english_list = data_to_learn["English"].to_list()
-#
-#
-# data = pandas.read_csv('data/french_words.csv')
-# data_french_list = data["French"].to_list()
-# data_english_list = data["English"].to_list()
-# # data_all_list = data_english_list + data_french_list
-# # print(random.choice(data_all_list))
+data_to_learn = pandas.read_csv('words_to_learn.csv')
+new_data_french_list = data_to_learn["French"].to_list()
+new_data_english_list = data_to_learn["English"].to_list()
 
-# data_dict = data.to_dict(orient="records")
-# print(data_dict)
-# print(random.choice(data_dict)["French"])
+
+data = pandas.read_csv('data/french_words.csv')
+data_french_list = data["French"].to_list()
+data_english_list = data["English"].to_list()
+# data_all_list = data_english_list + data_french_list
+# print(random.choice(data_all_list))
+
+data_dict = data.to_dict(orient="records")
+print(data_dict)
+print(random.choice(data_dict)["French"])
 
 
 click()
