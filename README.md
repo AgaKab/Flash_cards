@@ -14,3 +14,6 @@ In order to avoid errors, exception handling (try/except/else method) has been i
 The user interface of the program was created with a Canvas widget that provides graphical tools for Tkinter.
 
 Screenshots:
+<div>
+<img src="/screenshots/french.png" width="300" height="300"><img src="/screenshots/english.png" width="300" height="300">
+</div>
